@@ -37,17 +37,16 @@ public class Hello {
     public void sayHello(PrintStream printer) {
         for (short i = 0; i < times; i++) {
             printer.println(HELLO);
+            
+                
+            String x = "a test";
+            String y = new String("a test");
+            System.out.println(x==y); //prints false
+            System.out.println(x.equals(y)); //prints true
         }
     }
     
-    int minval(int *A, int n) {
-  int currmin;
-
-  for (int i=0; i<n; i++)
-    if (A[i] < currmin)
-      currmin = A[i];
-  return currmin;
-}
+    
     
   
     
