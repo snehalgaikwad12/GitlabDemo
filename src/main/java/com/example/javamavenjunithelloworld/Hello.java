@@ -45,11 +45,15 @@ public class Hello {
             System.out.println(x.equals(y)); //prints true
             
             
-              Hello h  = new Hello();
-          //results in a null pointer exception if getFirstName returns null
-          int  name = h.setTimes(3);
+           
         }
     }
+    
+    
+       public void setFirstName(String firstName) 
+       {
+  	  firstName = firstName;
+  	}
     
     
     
