@@ -61,11 +61,7 @@ public class Hello {
     	    	DirstName = DirstName;
     
     }
-    	 
-    	 public void setTirstName(String TirstName) {
- 	    	TirstName = TirstName;
- 
- }
+    	
     
     
     
