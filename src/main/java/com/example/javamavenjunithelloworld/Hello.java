@@ -40,10 +40,7 @@ public class Hello {
         }
     }
     
-    public void new()
-    {
-        int a=0;
-    }
+    
     
 
 
