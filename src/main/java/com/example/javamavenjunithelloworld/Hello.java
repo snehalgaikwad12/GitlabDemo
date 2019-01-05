@@ -43,6 +43,11 @@ public class Hello {
             String y = new String("a test");
             System.out.println(x==y); //prints false
             System.out.println(x.equals(y)); //prints true
+            
+            
+              Hello h  = new Hello();
+          //results in a null pointer exception if getFirstName returns null
+          int  name = h.setTimes(3);
         }
     }
     
