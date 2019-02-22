@@ -48,7 +48,20 @@ public class Hello {
     
        
 
-
+   public void setFirstName(String firstName) 
+       {
+  	  firstName = firstName;
+  	}
+    
+     public void setSirstName(String SirstName) {
+    	SirstName = SirstName;
+    }
+    	
+    	
+    	 public void setDirstName(String DirstName) {
+    	    	DirstName = DirstName;
+    
+    }
 
     
     
